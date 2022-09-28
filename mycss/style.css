@@ -1,0 +1,93 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --main-color: #eb4758;
+  --main-teks: #7d494e;
+}
+
+body {
+  background-color: rgb(246, 220, 229);
+}
+
+body .flower {
+  background-color: pink;
+}
+
+body .benefit {
+  background-color: rgba(236, 231, 231, 0.952);
+}
+
+.flower .navbar .navbar-brand .flower {
+  width: 90px;
+  margin-left: 20px;
+}
+.flower .collapse ul .nav-item {
+  margin-right: 30px;
+}
+.flower .collapse ul .nav-item .nav-link {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #6D6F77;
+}
+.flower .collapse ul .nav-item :hover {
+  color: #211b3d;
+}
+.flower .collapse ul .nav-item .active {
+  color: var(--main-color);
+}
+
+.hero-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.hero-section .row .content-hero h2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--main-color);
+  font-size: 30px;
+}
+.hero-section .row .content-hero h2 span {
+  color: var(--main-teks);
+  font-size: 30px;
+  font-weight: 600;
+}
+.hero-section .row .content-hero .desc {
+  font-weight: 500;
+  font-size: 16px;
+  color: #5B5575;
+  margin-bottom: 30px;
+}
+@media (max-width: 912px) {
+  .hero-section .row .hero-image {
+    margin-top: 30px;
+  }
+}
+
+.benefit .benefit-teks .face {
+  margin-bottom: 20px;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--main-teks);
+}
+.benefit .benefit-teks .teks {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #5B5575;
+}
+.benefit .benefit-face .row {
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.benefit .benefit-face .row .face-fit .img-fluid {
+  width: 330px;
+}
+.benefit .benefit-face .row h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--main-teks);
+}/*# sourceMappingURL=style.css.map */
